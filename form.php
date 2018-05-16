@@ -1,8 +1,8 @@
 <? 
 
 $adminemail="admin@gmail.com";  // e-mail admin 
-$backurl="company.html";  // sending suin up e--mail
-   
+$backurl="company.html";  // sending sing up e--mail
+   	
 // Data form
  
 $name=$_POST['name']; 
