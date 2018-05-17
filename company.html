@@ -274,7 +274,7 @@
 							      	<img src="img/src.jpg" alt="Картинка" class="img-responsive">
 							      	<div class="row">
 							      		<div class="date col-lg-12">
-							      			<p><span>Author:</span>CodeIT</p>
+							      			<p><span>Author:</span> CodeIT</p>
 							      			<p><span>Public:</span>17.05.2018</p>
 							      		</div>
 							      	</div>
@@ -288,10 +288,10 @@
 						    <div class="item">
 						      <div class="row">
 						      	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							      	<img src="img/Step-2.jpg" alt="Картинка" class="img-responsive">
+							      	<img src="img/src.jpg" alt="Картинка" class="img-responsive">
 							      	<div class="row">
 							      		<div class="date col-lg-12">
-							      			<p><span>Author:</span>Yura</p>
+							      			<p><span>Author:</span> Yura</p>
 							      			<p><span>Public:</span>17.05.2018</p>
 							      		</div>
 							      	</div>
@@ -309,7 +309,7 @@
 							      	<img src="img/icon.jpg" alt="Картинка" class="img-responsive">
 							      	<div class="row">
 							      		<div class="date col-lg-12">
-							      			<p><span>Author:</span>Dima</p>
+							      			<p><span>Author:</span> Yura</p>
 							      			<p><span>Public:</span>17.05.2018</p>
 							      		</div>
 							      	</div>
@@ -331,5 +331,34 @@
 			</div>
 		</div>
 	</div>
+<!--Подключение jquery библиотеки.-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+<script src="js/lib.js"></script>
+<!--Библиотека для построения диаграмм-->
+<script type="text/javascript" src="js/diagrams/highcharts.js"></script>
+<script type="text/javascript" src="js/diagrams/piecharts.js"></script>
+<!--Файл js который включает и настраивает сортировка центрального блока. -->
+<script type="text/javascript" src="js/filter/mixitup.js"></script>
+<script type="text/javascript" src="js/filter/sort.js"></script>
+
+<!--Скринт который скрывает лоадеры через определенное количество времени(delay(в мс)).-->
+<script type="text/javascript">
+	$(window).on('load', function () {
+    var $preloader = $('.loader'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(1500).fadeOut('slow');
+});</script>
+
+<!--Показывает и скрывает средний блок-->
+<script type="text/javascript"> 
+	function viewdiv(id){
+	var el=document.getElementById(id);
+	if(el.style.display=="block"){
+	el.style.display="none";
+	} else {
+	el.style.display="block";
+	} }
+</script>
 </body>
 </html>
