@@ -95,3 +95,194 @@ body {
   margin: 15px;
   height: 237px;
 }
+
+.item2 > table {
+  width: 100%;
+}
+
+.item2 td {
+  border: 1px solid #7C7C7C;
+  padding: 0px;
+}
+
+.item2 a {
+  display: inline-block;
+  width: 100%;
+  color: #000;
+  line-height: 150%;
+  padding: 10px;
+}
+
+.item2 a:hover, :focus {
+  background: #CDCDCD;
+}
+
+.item2 {
+  overflow: auto;
+}
+
+.carousel-inner {
+  height: 250px;
+}
+
+.carousel-indicators li {
+  height: 18px;
+  width: 18px;
+  background: #EEEEEE;
+}
+
+.carousel-indicators .active {
+  background: #B3B3B3;
+  height: 18px;
+  width: 18px;
+}
+
+.item {
+  height: 210px;
+  overflow: hidden;
+}
+
+.item img {
+  margin: 5px 0 10px 5px;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.news-text {
+  padding-left: 0;
+}
+.news-text a {
+  color: #000;
+}
+
+.news-text {
+  height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 10px;
+}
+
+.item span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.date p {
+  padding-left: 10px;
+}
+
+.item1 {
+  position: relative;
+}
+
+.pie {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #808080;
+  position: absolute;
+  top: 8%;
+  left: 32%;
+  font-size: 40px;
+  padding-top: 67px;
+  padding-left: 32px;
+}
+
+.controls {
+  text-align: right;
+}
+
+#table-inside {
+  width: 1180px;
+}
+
+.inside-center {
+  padding: 10px 10px 0 10px;
+  overflow: auto;
+  height: auto;
+}
+
+.mix-inside1 {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #808080;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 27%;
+}
+
+.mix1 {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+.mix1:last-child {
+  margin-right: 0;
+}
+
+.mix-inside p {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-size: 23px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.mix-inside {
+  height: 170px;
+  border: 1px solid #808080;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 60%;
+  position: relative;
+}
+
+.mid{
+  width: 7px;
+  height: 42px;
+  border-left: 1px solid #808080;
+  border-right: 1px solid #808080;
+  position: absolute;
+  left: 46%;
+  bottom: 100%;
+}
+
+
+.austria, .netherland, .uk, .glyphicon-arrow-left {
+  display: none;
+}
+
+.glyphicon-arrow-left {
+  float: right;
+  font-size: 20px;
+  line-height: 25px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hidetable p {
+  font-weight: bold;
+}
+
+.hidetable > table {
+  width: 100%;
+}
+
+.hidetable td {
+  border: 1px solid #7C7C7C;
+  padding: 10px;
+}
+
+.name2-center .glyphicon-remove {
+  color: black;
+  padding: 5px;
+  padding-left: 10px;
+  line-height: 100%;
+  border-left: 1px solid #e6e6e6;
+}
